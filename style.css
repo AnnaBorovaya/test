@@ -1,0 +1,72 @@
+main {
+ background-color: rgb(250, 250, 250);
+ height: 100vh;
+}
+.wraper {
+    background-color:white;
+    padding: 15px
+}
+.header-column {
+    height: 35px;
+    margin: 30px 0 20px 0;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header-column h1 {
+    position: absolute;
+    bottom: 7px;
+    left: 15px
+}
+
+.header-column-backLog{
+    background-color: rgb(253, 207, 121);
+    color: rgb(250, 125, 8)
+}
+.header-column-todo{
+    background-color: rgb(160, 184, 248);
+    color: rgb(59, 109, 248);
+}
+.card-title {
+    white-space: pre-wrap;
+}
+
+.card {
+    background-color: rgb(250, 250, 250) !important;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: blueviolet;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+.circle-group{
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: block;
+    margin-top: 15px;
+}
+
+@media (max-width: 991px ) {
+    .live_scroll {
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+    }
+    .live_scroll .row{
+    display:block;
+    }
+    .live_scroll .live_scroll_box {
+    display: inline-block;
+    }
+}

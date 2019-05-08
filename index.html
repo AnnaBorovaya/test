@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Test</title>
+</head>
+<body>
+    <main>
+        <div class="container live_scroll">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 live_scroll_box">
+                    <div class="wraper dropZone">
+                        <div class="header-column header-column-backLog">
+                            <h1>backLog</h1>
+                        </div>
+                        <div id="objectsZone" class ='container-backLog'>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary w-100">Add new card</a>
+                </div>
+                <div class="col-lg-6 col-md-8 live_scroll_box">
+                    <div  class="wraper dropZone">
+                        <div class="header-column header-column-todo">
+                            <h1>todo</h1>
+                        </div>
+                        <div id="objectsZone" class='container-todo'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script/ui.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
