@@ -27,9 +27,7 @@ main {
     background-color: rgb(160, 184, 248);
     color: rgb(59, 109, 248);
 }
-.card-title {
-    white-space: pre-wrap;
-}
+
 
 .card {
     background-color: rgb(250, 250, 250) !important;
@@ -61,12 +59,16 @@ main {
     .live_scroll {
         overflow-x: auto;
         overflow-y: hidden;
-        white-space: nowrap;
     }
     .live_scroll .row{
-    display:block;
+        flex-wrap: nowrap;
     }
-    .live_scroll .live_scroll_box {
-    display: inline-block;
+    .card-title {
+        white-space: normal;
+    }
+    .live_scroll_box {
+        display: flex;
+        flex-direction: column;
     }
 }
+
